@@ -1,4 +1,3 @@
-# Ders 6 : Kutuphanelerin yuklenmesi
 
 # Kutuphaneler
 import pandas as pd
@@ -19,17 +18,6 @@ print(boy)
 
 boykilo = veriler[['boy','kilo']]
 print(boykilo)
-
-
-#Nesne yonelimli proglamlama
-class insan:
-    boy = 180
-    def yas(self,b):
-        return 2024 - b
-    
-ali = insan()
-print(ali.boy)
-print(ali.yas(1974))
 
 
 #Eksik veriler
